@@ -1,7 +1,7 @@
 var name = "rian";
 var age = 28;
 var hasHobbies = true;
-
+// Function
 function summariezUser(userName, userAge, userHasHobby) {
   return (
     "Name is " +
