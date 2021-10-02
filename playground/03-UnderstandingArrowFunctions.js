@@ -1,9 +1,11 @@
-let name = "rian";
+const name = "rian";
 let age = 28;
-let hasHobbies = true;
+const hasHobbies = true;
+
+age = 30;
 
 // Function
-function summariezUser(userName, userAge, userHasHobby) {
+const summariezUser = (userName, userAge, userHasHobby) => {
   return (
     "Name is " +
     userName +
@@ -12,6 +14,12 @@ function summariezUser(userName, userAge, userHasHobby) {
     " and the user has hobbies: " +
     userHasHobby
   );
-}
+};
+
+const add = (a, b) => {
+    return a + b;
+};
+
+console.log(add(1, 2))
 
 console.log(summariezUser(name, age, hasHobbies));

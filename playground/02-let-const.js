@@ -1,6 +1,6 @@
-let name = "rian";
+const name = "rian";
 let age = 28;
-let hasHobbies = true;
+const hasHobbies = true;
 
 // Function
 function summariezUser(userName, userAge, userHasHobby) {
