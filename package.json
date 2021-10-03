@@ -1,24 +1,16 @@
 {
-  "name": "web-development",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "web development using nodejs express sql nosql",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "start-server": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rianto-RNT/webDev-node-express-sql-nosql.git"
   },
   "author": "Rian",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rianto-RNT/webDev-node-express-sql-nosql/issues"
-  },
-  "homepage": "https://github.com/Rianto-RNT/webDev-node-express-sql-nosql#readme",
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^1.18.3"
   }
 }
